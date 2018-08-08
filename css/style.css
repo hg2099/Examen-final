@@ -2,6 +2,8 @@
 .main-content, .footer, .menu{
     padding-left: 118px;
     padding-right: 95px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 a{
@@ -26,7 +28,7 @@ a{
     margin-bottom: 6px;
 }
 .logo, .slogan{
-    margin-left: 213px;
+    margin-left: 270px;
 }
 
 /*MENU*/
@@ -48,11 +50,6 @@ li{
 li + li{
     margin-left: 52px;
 }
-
-.first{
-    margin-left: 72px;
-}
-
 /*MAIN-CONTENT*/
 
 h2{
@@ -62,7 +59,7 @@ h2{
     margin-top: 29px;
 }
 
-.first-p{
+.out-of-box{
     color: #666666;
     font-family: arial;
     font-size: 14px;
@@ -75,6 +72,10 @@ h2{
     font-size: 18px;
     margin-top: 29px;
     margin-bottom: 18px;
+}
+
+.last{
+    margin-bottom: 40px;
 }
 
 /*BOXES*/
@@ -133,4 +134,20 @@ h2{
 
 span{
     color: #000000;
+}
+
+/*FOOTER*/
+.footer{
+    width: 960px;
+    height: 80px;
+    background-color: #e2e0e0;
+}
+
+.footer-p{
+    color: #d3001c;
+    font-family: arial;
+    font-size: 16px;
+    position: relative;
+    left: 340px;
+    top: 30px;
 }
