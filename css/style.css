@@ -1,0 +1,50 @@
+/*GENERALES*/
+.main-content, .footer, .menu{
+    padding-left: 118px;
+    padding-right: 95px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*CONTAINER*/
+#container{
+    border-top: 22px solid #ededed;
+}
+
+/*IMÁGENES*/
+.logo{
+    display: block;
+    margin-bottom: 6px;
+}
+.logo, .slogan{
+    margin-left: 213px;
+}
+
+/*MENU*/
+.menu{
+    list-style: none;
+    border-bottom: 6px solid #676766;
+}
+
+li{
+    display: inline;
+}
+
+.menu a{
+    color: #676766;
+    font-size: 18px;
+    font-family: arial;
+}
+
+li + li{
+    margin-left: 52px;
+}
+
+.first{
+    margin-left: 72px;
+}
+
+/*MAIN-CONTENT*/
+
