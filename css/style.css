@@ -8,6 +8,13 @@ a{
     text-decoration: none;
 }
 
+/*HELPER*/
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 /*CONTAINER*/
 #container{
     border-top: 22px solid #ededed;
@@ -48,3 +55,82 @@ li + li{
 
 /*MAIN-CONTENT*/
 
+h2{
+    color: #d3001c;
+    font-family: arial;
+    font-size: 22px;
+    margin-top: 29px;
+}
+
+.first-p{
+    color: #666666;
+    font-family: arial;
+    font-size: 14px;
+    width: 900px;
+}
+
+.dark-red{
+    color: #8c0013;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+
+/*BOXES*/
+.left, .right{
+    width: 440px;
+    height: 345px;
+    background-color: #f5f3f3;
+}
+
+.left{
+    float: left;
+    padding: 19px;
+}
+
+.right{
+    float: left;
+    padding: 19px;
+}
+
+.left + .right{
+    margin-left: 20px;
+}
+
+/*BOXES CONTENT*/
+
+.inside-box{
+    color: #707070;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box-p{
+    color: #313131;
+    font-family: arial;
+    font-size: 14px;
+    width: 260px;
+}
+
+.box-p2{
+    color: #313131;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.box-img{
+    float: right;
+}
+
+.more-info{
+    color: #d3001c;
+    font-size: 14px;
+    font-family: arial;
+    float: right;
+}
+
+span{
+    color: #000000;
+}
